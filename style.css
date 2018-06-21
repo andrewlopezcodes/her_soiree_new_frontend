@@ -1,0 +1,60 @@
+body{
+  background-color: white;
+}
+
+#header{
+  width: 100%;
+  height: 160px;
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: #FBACB9;
+  color: white;
+  font-size: 16px;
+  text-align:center;
+  border: 0;
+  padding-left: 10px;
+}
+#her_soiree_logo{
+  height: 100px;
+  width: 150px;
+  box-shadow: 5px 5px 5px #f1b5f7;
+  background-color: white;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#navlinks{
+  text-align: center;
+}
+#maincontainer{
+  padding-top: 10px;
+}
+}
+button {
+  margin: 5px 5px 5px 5px;
+}
+
+
+
+
+footer {
+  width: 100%;
+  background-color: #FBACB9;
+  padding: 3%;
+  color: #ffffff;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  color: #ffffff;
+}
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none;
+  }
+  #icon {
+    max-width: 150px;
+  }
+  h2 {
+    font-size: 1.7em;
+  }
+}
