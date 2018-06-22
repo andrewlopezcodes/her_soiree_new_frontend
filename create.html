@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>herSoiree</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/minty/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <header id="header">
+    <img src="images/herSoiree-word-logo.jpg" id="her_soiree_logo">
+    <ul class="nav" id="navlinks">
+  <li class="nav-item">
+    <a class="nav-link" href="/">All Soirees</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/create.html">Create Soiree</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link disabled" href="/">Disabled</a>
+  </li>
+</ul>
+  </header>
+  <main class="container">
+    <form>
+        <div class="form-group">
+          <label for="title">Title</label>
+          <input type="text" id="title" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="organizer_name">Organizer name</label>
+          <input type="text" id="organizer_name" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="organizer_website_url">Organizer website url</label>
+          <input type="url" id="organizer_website_url" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label class="input-group-text" for="event_type">Select Event Type Below</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="Other">Other</option>
+          <option value="afterwork mixer">afterwork mixer</option>
+          <option value="nightlife party">nightlife party</option>
+          <option value="day time party">day time party</option>
+          <option value="concert">concert</option>
+          <option value="celebrity signing or apperance">celebrity signing or apperance</option>
+          <option value="Diner / Gala / Awards show">Diner / Gala / Awards show</option>
+          <option value="food or drink">food or drink</option>
+          <option value="Girls Trip or Destination Trip">Girls Trip or Destination Trip</option>
+          <option value="Spa Day">Spa Day</option>
+          <option value="Boatride">Boatride</option>
+          <option value="Fashion Show">Fashion Show</option>
+          <option value="Popup Shop">Popup Shop</option>
+          <option value="Career Fair">Career Fair</option>
+          <option value="Meeting or Networking">Meeting or Networking</option>
+          <option value="Expo / Convention / Trade Show">Expo / Convention / Trade Show</option>
+          <option value="Sorority Event">Sorority Event</option>
+          <option value="Product Launch">Product Launch</option>
+          <option value="Class / Lecture / Pannel Discussion / Training">Class / Lecture / Pannel Discussion / Training</option>
+          <option value="Parent Chaperoned Childrens Envents">Parent Chaperoned Childrens Envents</option>
+          <option value="Child Drop Off Events">Child Drop Off Events</option>
+          <option value="Rally / Causes/ Social Justice / Activisim">Rally / Causes/ Social Justice / Activisim</option>
+          <option value="Screening / Entertainment Release">Screening / Entertainment Release</option>
+          <option value="Tour">Tour</option>
+          <option value="Tournament">Tournament</option>
+          <option value="Race / Endurance Event">Race / Endurance Event</option>
+          <option value="festival">festival</option>
+        </select>
+        </div>
+        <div class="form-group">
+          <label class="input-group-text" for="event_topic">Select Event Topic Below</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="Other">Other</option>
+          <option value="Auto / Boat / Air">Auto / Boat / Air</option>
+          <option value="Business / Professional">Business / Professional</option>
+          <option value="Charity and Causes">Charity and Causes</option>
+          <option value="Community and Culture">Community and Culture</option>
+          <option value="Family and Education">Family and Education</option>
+          <option value="Fashion / Beauty">Fashion / Beauty</option>
+          <option value="Film / Media / Entertainment">Film / Media / Entertainment</option>
+          <option value="Government / Politics">Government / Politics</option>
+          <option value="Health / Wellness">Health / Wellness</option>
+          <option value="Home / Lifestyle">Home / Lifestyle</option>
+          <option value="Music">Music</option>
+          <option value="Performing / Visual Arts">Performing / Visual Arts</option>
+          <option value="Religion / Spirtituality">Religion / Spirtituality</option>
+          <option value="Technology / Science">Technology / Science</option>
+          <option value="Finance">Finance</option>
+          <option value="Seasonal / Holiday">Seasonal / Holiday</option>
+          <option value="Sports">Sports</option>
+          <option value="Travel / Outdoors">Class / Lecture / Pannel Discussion / Training</option>
+          <option value="Transportation">Transportation</option>
+          <option value="Energy">Energy</option>
+          <option value="Marijuana">Marijuana</option>
+          <option value="Agriculture">Agriculture</option>
+        </select>
+        </div>
+        <div class="form-group">
+          <label for="description">Description</label>
+          <textarea id="description" class="form-control" placeholder="Enter Event Description"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="venue_name">Venue name</label>
+          <input type="text" id="venue_name" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="street_address">Street Address</label>
+          <input type="text" id="street_address" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="city">City</label>
+          <input type="text" id="city" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="state">State</label>
+          <input type="text" id="state" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="zipcode">Zipcode</label>
+          <input type="text" id="zipcode" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label class="input-group-text" for="participant_age">Select Participant Age Below</label>
+        </div>
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Choose...</option>
+          <option value="1 to 5">1 to 5</option>
+          <option value="5 to 8">5 to 8</option>
+          <option value="9 to 13">9 to 13/option>
+          <option value="14 to 17">14 to 17</option>
+          <option value="18 and up">18 and up</option>
+          <option value="21 and up">21 and up</option>
+          <option value="25 and up">25 and up</option>
+          <option value="30 and up">30 and up</option>
+          <option value="40 and up">40 and up</option>
+          <option value="50 and up">50 and up</option>
+          <option value="60 and up">60 and up</option>
+          <option value="70 and up">70 and up</option>
+          <option value="80 and up">80 and up</option>
+          <option value="90 and up">90 and up</option>
+        </select>
+        </div>
+        <div class="form-group">
+          <label for="event_start_time">Event Start Time</label>
+          <input type="datetime-local" id="event_start_time" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="event_finish_time">Event Finish Time</label>
+          <input type="datetime-local" id="event_finish_time" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="event_frequency">Event Frequency</label>
+          <input type="text" id="event_frequency" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="dress_code">Dress Code</label>
+          <input type="text" id="dress_code" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="event_price">Ticket Price</label>
+          <input type="number" id="event_price" class="form-control" />
+        </div>
+        <div class="form-group">
+          <label for="event_flyer_url">Event Flyer URL</label>
+          <input type="url" id="event_flyer_url" class="form-control" />
+        </div>
+        <button type="submit" class="btn btn-primary" id="create-her_soiree">Create Event</button>
+      </form>
+  </main>
+
+
+  <script src="shared.js" type="text/javascript"></script>
+  <script src="create.js" type="text/javascript"></script>
+  </body>
+</html>
